@@ -2,7 +2,7 @@ import style from './productsStyle.module.css';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchProducts } from '../../store/reducers/productSlice';
-import { BiLoader, BiSolidCart } from 'react-icons/bi';
+import { BiSolidCart } from 'react-icons/bi';
 import { MdOutlineFavorite } from "react-icons/md";
 import { addToCart } from '../../store/reducers/cartSlice';
 import { toggleFavorite } from '../../store/reducers/favoriteSlice';
@@ -26,10 +26,28 @@ const Products = () => {
     product.name?.toLowerCase().includes(searchThem.toLowerCase())
   );
 
+  const shimmerStyle = {
+    height: '260px',
+    opacity: 0.28,
+    background: 'linear-gradient(90deg, #eeeeee 25%, #dddddd 50%, #eeeeee 75%)',
+    backgroundSize: '200% 100%',
+    animation: 'shimmer 1.5s infinite',
+  };
+
+
   if (loading) {
     return (
-      <div className={style.loading}>
-        <BiLoader className={style.spinner} />
+      <div className="container">
+        <div className={style.productBlock} style={{ marginTop: '40px' }}>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+          <div className={`${style.productBox} ${style.shimmer}`}></div>
+        </div>
       </div>
     );
   }

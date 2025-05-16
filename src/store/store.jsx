@@ -1,4 +1,3 @@
-// store/store.js
 import { configureStore } from '@reduxjs/toolkit';
 import cartReducer from './reducers/cartSlice';
 import favoriteReducer from './reducers/favoriteSlice';
