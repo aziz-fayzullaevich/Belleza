@@ -1,0 +1,104 @@
+:root {
+    --font-main: 'Inter', sans-serif;
+    --title-color: rgb(117, 76, 0);
+    --desc-color: #333;
+    --box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: #ececec;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    user-select: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+span,
+i,
+input,
+textarea,
+select {
+    display: inline-block;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    user-select: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.titleBlock {
+    margin: 40px 0;
+    color: #fff;
+    background-color: var(--title-color);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.5;
+    user-select: none;
+}
+
+
+@media screen and (max-width: 620px) {
+    .titleBlock {
+        margin: 25px 0;
+        font-size: 15px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+}

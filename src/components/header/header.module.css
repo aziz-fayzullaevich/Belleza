@@ -1,0 +1,154 @@
+@import '../../index.css';
+
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.headerBlock {
+    padding: clamp(5px, 1.5vw, 10px);
+    border-radius: clamp(20px, 3vw, 40px);
+    box-shadow: var(--box-shadow);
+    margin-top: clamp(5px, 1.5vw, 10px);
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo,
+.searchBlock,
+.navbars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo>a {
+    font-size: clamp(20px, 2.5vw, 35px);
+    color: var(--title-color);
+}
+
+.logo>img {
+    width: 60px;
+}
+
+.searchBlock {
+    border: 1px solid var(--title-color);
+    padding: 5px;
+    width: 500px;
+    border-radius: 100px;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 30px;
+    color: var(--title-color);
+}
+
+.searchBlock>input {
+    border: none;
+    width: 100%;
+    font-size: clamp(14px, 1.5vw, 18px);
+    margin-right: 5px;
+    color: var(--title-color);
+
+}
+
+.searchBlock>input::placeholder {
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--title-color);
+}
+
+.navbars {
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.navbars>a {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+    transition: all 0.3s ease;
+}
+
+.navbars>a:hover {
+    opacity: 0.8;
+}
+
+.showLengthLink {
+    position: relative;
+}
+
+.cartCount {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #fff;
+    color: var(--box-shadow);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--title-color);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.burgerOpen span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burgerOpen span:nth-child(2) {
+    opacity: 0;
+}
+
+.burgerOpen span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media (max-width: 768px) {
+    .searchBlock {
+        display: none;
+    }
+
+    .navbars {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: white;
+        padding: 20px;
+        box-shadow: var(--box-shadow);
+        border-radius: 10px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .navbars.active {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+    }
+}

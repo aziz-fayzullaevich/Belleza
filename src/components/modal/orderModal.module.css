@@ -1,0 +1,148 @@
+@import '../../index.css';
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  box-shadow: var(--box-shadow);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
+
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formBlock>input {
+  border: 1px solid var(--title-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.orderItems {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.itemRow>img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  box-shadow: var(--box-shadow);
+}
+
+.itemRow>div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.itemRow>div>b {
+  color: var(--title-color);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.summary>p {
+  color: var(--title-color);
+}
+
+.closeModal {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: crimson;
+}
+
+.addedBtn {
+  background-color: var(--title-color);
+  color: #fff;
+  padding: 5px 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .modalContent {
+    margin: 20px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .formBlock>input {
+    padding: 6px;
+  }
+
+  .itemRow>div {
+  flex-direction: column;
+  }
+
+  .itemRow>b,
+  .itemRow>div>b, .addedBtn {
+    font-size: 14px;
+  }
+
+  .closeModal {
+    font-size: 22px;
+  }
+
+  .summary {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,113 @@
+footer {
+    background-color: rgb(16, 16, 16);
+    padding: clamp(20px, 2vw, 40px);
+    color: #ffff;
+}
+
+.footerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.leftBlock>span {
+    text-align: center;
+}
+
+.logo,
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo>img {
+    width: 40px;
+}
+
+.logo>a {
+    color: var(--title-color);
+    font-size: clamp(18px, 2vw, 30px);
+}
+
+.rightBlock,
+.linksBlock,
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rightBlock {
+    gap: 20px;
+}
+
+.linksBlock>p,
+.rightBlock>p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.links {
+    justify-content: start;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.links>a {
+    color: #fff;
+}
+
+.additQuest {
+    border: 1px solid #fff;
+}
+
+.additQuest>input {
+    padding: 5px;
+    border: none;
+}
+
+.additQuest>button {
+    color: #fff;
+    padding: 3px 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 530px) {
+    .footerBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .leftBlock {
+        margin-bottom: 10px;
+    }
+
+    .logo>img {
+        width: 100px;
+    }
+
+    .rightBlock,
+.linksBlock,
+.leftBlock {
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+
+    .logo>img {
+        width: 80px;
+    }
+
+    .rightBlock,
+.linksBlock,
+.leftBlock {
+    align-items: center;
+}
+}

@@ -1,0 +1,160 @@
+@import '../../index.css';
+
+.loading,
+.error {
+    text-align: center;
+    font-size: 40px;
+    opacity: 0.5;
+    user-select: none;
+}
+
+.detailsBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin: 40px 0;
+}
+
+.detailsBlock>img {
+    width: 250px;
+}
+
+.detailProductDescBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.detailProductDesc,
+.detailProductQuantityBlock>b {
+    font-size: 20px;
+    color: var(--desc-color);
+}
+
+.detailProductInfo,
+.detailProductQuantityBlock {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.detailProductInfo>b {
+    font-size: 20px;
+    color: var(--title-color);
+}
+
+.detailProductInfo>b:first-child {
+    padding-right: 50px;
+    border-right: 2px solid var(--title-color);
+}
+
+.detailProductPrice {
+    padding: 20px 10px;
+    background-color: rgb(220, 220, 220);
+    font-size: 40px;
+    color: var(--title-color);
+    margin: 20px 0;
+}
+
+.detailProductQuantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid var(--title-color);
+    border-radius: 10px;
+}
+
+.detailProductQuantity>button {
+    padding: 3px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.addBtnDetailProduct {
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--title-color);
+    border-radius: 10px;
+    letter-spacing: 1px;
+    width: 200px;
+}
+
+@media screen and (max-width: 700px) {
+    .detailsBlock {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detailsBlock>img {
+        width: 150px;
+    }
+
+    .detailProductDescBlock {
+        margin-left: 0;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .detailProductDescBlock>h2 {
+        font-size: 20px;
+    }
+
+    .detailProductDesc {
+        font-size: 16px;
+    }
+
+    .detailProductInfo {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .detailProductInfo>b {
+        font-size: 16px;
+    }
+
+    .detailProductInfo>b:first-child {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .detailProductPrice {
+        font-size: 22px;
+        padding: 10px;
+        width: auto;
+        margin: 0;
+    }
+
+    .detailProductQuantityBlock {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .detailProductQuantity {
+        gap: 15px;
+    }
+
+    .detailProductQuantity>button {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .addBtnDetailProduct {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}

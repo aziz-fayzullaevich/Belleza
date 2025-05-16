@@ -1,0 +1,504 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tonal krem",
+      "brand": "Maybelline",
+      "price": 950,
+      "image": "/products-img/tonal-krem.jpg",
+      "description": "Teriniń ideal reńin sáykeslendiriwshi tonal krem.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 2,
+      "name": "Qas ushın gel",
+      "brand": "NYX",
+      "price": 540,
+      "image": "/products-img/qas-gel.jpg",
+      "description": "Qaslardı bir-birine jabıstırmay kún boyı bekitip turadı.",
+      "rating": 4.2,
+      "liked": false
+    },
+    {
+      "id": 3,
+      "name": "Sayalar paletkası",
+      "brand": "Revolution",
+      "price": 1190,
+      "image": "/products-img/paletka.jpg",
+      "description": "Qálegen obraz ushin 12 toyingan reń.",
+      "rating": 4.8,
+      "liked": false
+    },
+    {
+      "id": 4,
+      "name": "Erin boyawı",
+      "brand": "MAC",
+      "price": 1650,
+      "image": "/products-img/pamada.jpg",
+      "description": "Toyınǵan reńli shıdamlı gúńgirt boyaw.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 5,
+      "name": "Kirpik boyawı",
+      "brand": "L'Oreal",
+      "price": 790,
+      "image": "/products-img/kirpik-boyaw.jpg",
+      "description": "Kólem effektine iye uzaytıwshı tús.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 6,
+      "name": "Kompakt pudra",
+      "brand": "Max Factor",
+      "price": 870,
+      "image": "/products-img/pudra.jpg",
+      "description": "Kún dawamında teriniń tegis hám jumsaq bolıwın támiyinleydi.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 7,
+      "name": "Kóz ushın qálem",
+      "brand": "Essence",
+      "price": 260,
+      "image": "/products-img/qalem.jpg",
+      "description": "Toyingan pigmentli jumsaq qálem.",
+      "rating": 4.1,
+      "liked": false
+    },
+    {
+      "id": 8,
+      "name": "Xaylayter",
+      "brand": "Becca",
+      "price": 1350,
+      "image": "/products-img/xlayter.jpg",
+      "description": "Terige nur hám taza kórinis beredi.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 9,
+      "name": "Konsiler",
+      "brand": "Catrice",
+      "price": 480,
+      "image": "/products-img/konsiler.jpg",
+      "description": "Kóz astındaǵı kemshilikler hám qara sheńberlerdi jasıradı.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 10,
+      "name": "Rumyana",
+      "brand": "Bourjois",
+      "price": 620,
+      "image": "/products-img/rumiyana.jpg",
+      "description": "Tábiyiy qızarıw ushın názik qızǵılt reń.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 11,
+      "name": "Mitsellyar suw",
+      "brand": "Garnier",
+      "price": 430,
+      "image": "/products-img/mitsellyar.jpg",
+      "description": "Terini juwmastan áste tazalaw.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 12,
+      "name": "Erin balzami",
+      "brand": "EOS",
+      "price": 290,
+      "image": "/products-img/balzam.jpg",
+      "description": "Qulpınay iyisli erinlerdi ıǵallaw hám qorǵaw.",
+      "rating": 4.2,
+      "liked": false
+    },
+    {
+      "id": 13,
+      "name": "Bet maskası",
+      "brand": "Sephora",
+      "price": 340,
+      "image": "/products-img/maska.jpg",
+      "description": "Teriniń tesiklerin tazalaydı, terini ıǵallandıradı.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 14,
+      "name": "Qol kremi",
+      "brand": "Neutrogena",
+      "price": 310,
+      "image": "/products-img/krem.jpg",
+      "description": "Qoldıń qurǵaq terisin intensiv támiyinleydi.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 15,
+      "name": "Dene mayı",
+      "brand": "Palmer's",
+      "price": 670,
+      "image": "/products-img/dene-mayi.jpg",
+      "description": "Terini jumsartadı hám azıqlandıradı, qurǵaqshılıqtı joq etedi.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 16,
+      "name": "Bet skrabi",
+      "brand": "Clinique",
+      "price": 890,
+      "image": "/products-img/skrab.jpg",
+      "description": "Bet terisin tereń tazalaydı hám jańalaydı.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 17,
+      "name": "Pardoz astı",
+      "brand": "Smashbox",
+      "price": 1420,
+      "image": "/products-img/pardoz.jpg",
+      "description": "Teriniń reńin tegisleydi hám pardozdıń shıdamlılıǵın uzaytadı.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 18,
+      "name": "Juwınıw ushın penka",
+      "brand": "La Roche-Posay",
+      "price": 510,
+      "image": "/products-img/penka.jpg",
+      "description": "Tásirsheń teri ushın jumsaq tazalaw.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 19,
+      "name": "Erin qálemi",
+      "brand": "NYX",
+      "price": 370,
+      "image": "/products-img/erin-qalemi.jpg",
+      "description": "Reńniń anıq konturi hám turaqlılıǵı.",
+      "rating": 4.2,
+      "liked": false
+    },
+    {
+      "id": 20,
+      "name": "Matirovat salfetkalar",
+      "brand": "Faberlic",
+      "price": 180,
+      "image": "/products-img/salfetka.jpg",
+      "description": "Maylı jıltıraqlardı pardozǵa zıyan jetkermey alıp taslaydı.",
+      "rating": 4.1,
+      "liked": false
+    },
+    {
+      "id": 21,
+      "name": "Termal suw",
+      "brand": "Avene",
+      "price": 730,
+      "image": "/products-img/termal-suw.jpg",
+      "description": "Seziwsheń terini tınıshlandıradı hám jańalaydı.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 22,
+      "name": "Juwınıw ushın gel",
+      "brand": "Nivea",
+      "price": 390,
+      "image": "/products-img/juwiniw-geli.jpg",
+      "description": "Pataslıqlardı hám artıqsha teri mayın ketiredi.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 23,
+      "name": "Bet sıvorotkası",
+      "brand": "The Ordinary",
+      "price": 850,
+      "image": "/products-img/sivorotka.jpg",
+      "description": "Tesiklerdi taraytıp, teriniń reńin ashtıradı.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 24,
+      "name": "Bet ushin glitter-gel.",
+      "brand": "Lime Crime",
+      "price": 970,
+      "image": "/products-img/glitter-gel.jpg",
+      "description": "Kórinisińizge jarqınlıq qosıń!",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 25,
+      "name": "Qızıl shashaq",
+      "brand": "Real Techniques",
+      "price": 520,
+      "image": "/products-img/shashaq.jpg",
+      "description": "Qızıl reń beriw ushın jumsaq hám qolay.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 26,
+      "name": "Túngi nıqap",
+      "brand": "Laneige",
+      "price": 1100,
+      "image": "/products-img/niqab.jpg",
+      "description": "Uyqı waqtında qattı ıǵallanıw.",
+      "rating": 4.8,
+      "liked": false
+    },
+    {
+      "id": 27,
+      "name": "Boyawdı bekkemlew ushın спреy",
+      "brand": "Urban Decay",
+      "price": 1490,
+      "image": "/products-img/boyaw-sprey.jpg",
+      "description": "Makiyajdı 16 saatqa bekitiw.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 28,
+      "name": "Dush ushın gel",
+      "brand": "Dove",
+      "price": 360,
+      "image": "/products-img/dush-geli.jpg",
+      "description": "Terini mayin tazalaw hám ıǵallandırıw.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 29,
+      "name": "Maska-plyonka",
+      "brand": "Freeman",
+      "price": 430,
+      "image": "/products-img/maska-plyonka.jpg",
+      "description": "Kirlerdi ketiredi, tesiklerdi taraytiradi.",
+      "rating": 4.4,
+      "liked": false
+    },
+    { 
+      "id": 30,
+      "name": "Qabaq ushin krem",
+      "brand": "L'Oreal",
+      "price": 880,
+      "image": "/products-img/qabaq-krem.jpg",
+      "description": "Isiniwdi hám qara dóńgeleklerdi azaytadı.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 31,
+      "name": "Saqal alıw penkası",
+      "brand": "Gillette",
+      "price": 290,
+      "image": "/products-img/saqal-aliw-penka.jpg",
+      "description": "Saqaldıń tegis hám qolaylı bolıwın támiyinleydi.",
+      "rating": 4.2,
+      "liked": false
+    },
+    {
+      "id": 32,
+      "name": "Shash mayı",
+      "brand": "Gliss Kur",
+      "price": 670,
+      "image": "/products-img/shash-mayi.jpg",
+      "description": "Zıyanlanǵan shashlardı tikleydi, azıqlandıradı.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 33,
+      "name": "Sulfatsız shampun",
+      "brand": "Botanic Therapy",
+      "price": 450,
+      "image": "/products-img/shampun.jpg",
+      "description": "Shash hám bas terisin abaylılıq penen kútiw.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 34,
+      "name": "Saya astındaǵı tiykar",
+      "brand": "Too Faced",
+      "price": 980,
+      "image": "/products-img/saya-krem.jpg",
+      "description": "Kóleńke jarqınlıǵı hám turaqlılıǵın arttıradı.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 35,
+      "name": "Kóz demakiyaji",
+      "brand": "Biore",
+      "price": 390,
+      "image": "/products-img/demakyaj.jpg",
+      "description": "Suwǵa shıdamlı tús penen bolsa da, pardozdı áste alıp taslaw.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 36,
+      "name": "Korrektor",
+      "brand": "Rimmel",
+      "price": 470,
+      "image": "/products-img/korrektor.jpg",
+      "description": "Teriniń qızarıwı hám kemisliklerin jasıradı.",
+      "rating": 4.2,
+      "liked": false
+    },
+    {
+      "id": 37,
+      "name": "Konturlaw paletkası",
+      "brand": "Sleek",
+      "price": 990,
+      "image": "/products-img/konturlaw-paletka.jpg",
+      "description": "Kontur, xaylayter hám bronzer bir paletkada.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 38,
+      "name": "Erin jıltıraǵı",
+      "brand": "Fenty Beauty",
+      "price": 1250,
+      "image": "/products-img/erin-jiltirag'i.jpg",
+      "description": "Jıltıraq jarqıraw hám erinlerdiń kútimli kórinisi.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 39,
+      "name": "Júz ushın praymer",
+      "brand": "Revlon",
+      "price": 880,
+      "image": "/products-img/praymer.jpg",
+      "description": "Terini tegislew hám pardozlawga tayarlaw.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 40,
+      "name": "Shashıwshı pudra",
+      "brand": "Innisfree",
+      "price": 620,
+      "image": "/products-img/shashiwshi-pudra.jpg",
+      "description": "Jeńil qaplaw hám jıltıraqlıqtı qadaǵalaw.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 41,
+      "name": "Shyotkalar toplamı",
+      "brand": "Zoeva",
+      "price": 2150,
+      "image": "/products-img/shyotkalar-toplami.jpg",
+      "description": "10 professionallıq pardoz shyotkaları.",
+      "rating": 4.8,
+      "liked": false
+    },
+    {
+      "id": 42,
+      "name": "Iǵallandırıwshı krem",
+      "brand": "Cetaphil",
+      "price": 740,
+      "image": "/products-img/igallandiriwshi-krem.jpg",
+      "description": "Eń sezgir teri ushın da qolaylı.",
+      "rating": 4.6,
+      "liked": false
+    },
+    {
+      "id": 43,
+      "name": "SPF kremi",
+      "brand": "Vichy",
+      "price": 1120,
+      "image": "/products-img/spf-krem.jpg",
+      "description": "Quyashtan saqlanıw hám teriniń kútimi.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 44,
+      "name": "Iǵallandırıwshı tonik",
+      "brand": "Pixi",
+      "price": 930,
+      "image": "/products-img/igallandiriwshi-tonik.jpg",
+      "description": "Terini tonlastıradı hám tegisleydi.",
+      "rating": 4.5,
+      "liked": false
+    },
+    {
+      "id": 45,
+      "name": "Erin nıqapı",
+      "brand": "LANEIGE",
+      "price": 980,
+      "image": "/products-img/erin-niqabi.jpg",
+      "description": "Uyqı waqtında erinlerdi tereń ıǵallandıradı.",
+      "rating": 4.8,
+      "liked": false
+    },
+    {
+      "id": 46,
+      "name": "Kutikula balzami",
+      "brand": "ORLY",
+      "price": 350,
+      "image": "/products-img/kutikula-balzam.jpg",
+      "description": "Tırnaq átirapındaǵı terini ıǵallandıradı hám azıqlandıradı.",
+      "rating": 4.3,
+      "liked": false
+    },
+    {
+      "id": 47,
+      "name": "Sıvorotka",
+      "brand": "Eveline",
+      "price": 540,
+      "image": "/products-img/kirpiklerge-sivorotka.jpg",
+      "description": "Kirpiklerdi bekkemleydi, ósiriwdi xoshametleydi.",
+      "rating": 4.4,
+      "liked": false
+    },
+    {
+      "id": 48,
+      "name": "Qas salıw ushın gel",
+      "brand": "Benefit",
+      "price": 1150,
+      "image": "/products-img/qas-saliw-geli.jpg",
+      "description": "Qaslardı kún boyı bekitip qoyıw.",
+      "rating": 4.7,
+      "liked": false
+    },
+    {
+      "id": 49,
+      "name": "Parfyumeriya suwı",
+      "brand": "Chanel",
+      "price": 4990,
+      "image": "/products-img/parfyumerya-suw.jpg",
+      "description": "Hár kúnge mólsherlengen taza hám turaqlı iyis.",
+      "rating": 4.9,
+      "liked": false
+    },
+    {
+      "id": 50,
+      "name": "Miniatyuralıq átirler",
+      "brand": "Zara",
+      "price": 620,
+      "image": "/products-img/miniatyuralıq-atirler.jpg",
+      "description": "Sumka ushın ıqsham átirler.",
+      "rating": 4.5,
+      "liked": false
+    }
+  ]
+}
