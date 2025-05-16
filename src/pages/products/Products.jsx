@@ -26,15 +26,6 @@ const Products = () => {
     product.name?.toLowerCase().includes(searchThem.toLowerCase())
   );
 
-  const shimmerStyle = {
-    height: '260px',
-    opacity: 0.28,
-    background: 'linear-gradient(90deg, #eeeeee 25%, #dddddd 50%, #eeeeee 75%)',
-    backgroundSize: '200% 100%',
-    animation: 'shimmer 1.5s infinite',
-  };
-
-
   if (loading) {
     return (
       <div className="container">
